@@ -1,0 +1,13 @@
+package com.tutorialspoint;
+
+public class HelloWorld {
+   private int message;
+
+   public void setMessage(int message){
+      this.message  = message;
+   }
+
+   public void getMessage(){
+      System.out.println("Your Message : " + message);
+   }
+}
